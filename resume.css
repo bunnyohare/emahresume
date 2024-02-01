@@ -1,0 +1,57 @@
+body{
+    background-color: black;
+    color: aliceblue;
+}
+
+.main-container{
+   margin: 5px;
+}
+
+
+#section1{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.box1{
+
+    width: 55%;
+    display: flex;
+
+  }
+.box2{
+
+    width: 35%
+}
+.box3{
+    width: 100%;
+
+    justify-content: right;
+}
+
+.fieldKey{
+    font-weight: bolder;
+}
+
+#photo-headshot{
+    width: 35%;
+}
+
+#resume-photo{
+    margin: 10% ;
+    height: 70%;
+    width: 70%;
+    justify-self: left;
+
+}
+#name-title{
+    width: 60%;
+    justify-self: right;
+}
+
+h3{
+    color: rgb(129, 217, 217);
+}
